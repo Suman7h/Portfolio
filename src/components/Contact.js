@@ -65,7 +65,7 @@ const Contact = () => {
                     required
                   />
                 </li>
-                <li className='mb-10'>
+                <li className='half mb-10'>
                   <textarea
                   className='h-64 w-2/3 rounded-lg pl-4 pt-4'
                     placeholder="Message"

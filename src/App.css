@@ -185,6 +185,10 @@ h1 {
 
 @media (max-width: 768px) {
 
+    .about-info{
+      display: block;
+      width: fit-content;
+    }
     .lettersc{
         padding-top: 50px;  
     }
@@ -218,7 +222,7 @@ h1 {
     }
 
     .text-shpere{
-        padding-left: 90px;
+        margin-right: auto;
     }
     .cards {
         display: flex;
@@ -242,10 +246,12 @@ h1 {
         gap: 60px;
       }
     .contact{
-        margin-left: 150px;
+        margin-left: auto;
     }  
-    .contact-form{
-        margin-left: 200px;
+    .half{
+        display: flex;
+        align-items: center;
+        width: auto;
       }
 
   }
