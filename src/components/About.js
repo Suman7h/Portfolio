@@ -28,7 +28,7 @@ function About() {
       
         const updateTagCloud = () => {
           const screenWidth = window.innerWidth;
-          const radius = screenWidth >= 768 ? 300 : 200; // Adjust the breakpoint as needed
+          const radius = screenWidth >= 768 ? 300 : 150; // Adjust the breakpoint as needed
       
           const options = {
             radius: radius,
