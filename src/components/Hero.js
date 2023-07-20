@@ -117,9 +117,9 @@ function Hero() {
 
         </div>
 
-        <div className={`blobc relative hero-img mt-16 md:mt-0 ${showBlobs ? 'blobs-visible' : ''}`}>
+        <div className={`blobc relative hero-img  md:mt-0 ${showBlobs ? 'blobs-visible' : ''}`}>
   
-            <div className="blob-overlay ml-16 md:ml-auto"></div>
+            <div className="blob-overlay ml-16 md:ml-auta"></div>
             <div className="blob ml-16 md:ml-auto"></div>
  
         </div>
