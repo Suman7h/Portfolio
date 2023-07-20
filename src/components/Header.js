@@ -7,7 +7,7 @@ const Header = () => {
   const handleToggle = () => setToggle(!toggle);
   return (
     <header className='flex justify-between px-5 py-2 bg-black text-white fixed w-full z-10'>
-      <a href="/" className="logo text-2xl font-bold hover:text-teal-500">Sumanth Peruri</a>
+      <a href="/Portfolio" className="logo text-2xl font-bold hover:text-teal-500">Sumanth Peruri</a>
       
         {/*Desk nav*/}
       <nav className='hidden md:block'>
