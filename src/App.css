@@ -50,6 +50,11 @@ h1 {
     line-height: 1.2 !important;
 }
 
+.Typewriter{
+  display: inline;
+  
+}
+
 .blobc{
     position: relative;
     width:600px;
@@ -60,6 +65,15 @@ h1 {
 }
 .blobc.blobs-visible {
     opacity: 1;
+}
+
+.word{
+  transition: opacity 1.3s ease-in-out;
+  opacity: 0;
+}
+
+.word.word-visible{
+  opacity: 1;
 }
 
 /* .github, .linkedin, .instagram, .twitter{
@@ -190,7 +204,10 @@ h1 {
       width: fit-content;
     }
     .lettersc{
-        padding-top: 50px;  
+      padding-top: 50px;  
+    }
+    .hero-info{
+      margin-left: 7vh;
     }
 
     .blobc {
@@ -278,3 +295,5 @@ h1 {
   #description {
     margin: 1.5em 0 2em 0;
   }
+
+ 

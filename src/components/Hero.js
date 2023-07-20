@@ -1,5 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { init } from 'ityped';
+import React, { useState, useEffect } from 'react';
+//import { init } from 'ityped';
+import Typewriter from "typewriter-effect";
 import './Hero.scss';
 import AnimatedLetters from './AnimatedLetters';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -16,39 +17,40 @@ function Hero() {
   const [letterClass, setLetterClass] = useState('text-animate');
   const [showBlobs, setShowBlobs] = useState(false); 
   const [showIcons, setShowIcons] = useState(false); 
+  const [showWord, setShowWord] = useState(false); 
   const hiArray = ['H', 'i,'];
   const imArray = ['I', ' ', 'a', 'm'];
   const nameArray = ['u', 'm', 'a', 'n', 't', 'h'];
   const jobArray = ['W', 'e', 'b'];
   
 
-  const textRef = useRef();
+  // const textRef = useRef();
 
-  useEffect(() => {
-    const currentRef = textRef.current;
+  // useEffect(() => {
+  //   const currentRef = textRef.current;
   
-    return () => {
-      if (currentRef) {
-        let timeoutId;
+  //   return () => {
+  //     if (currentRef) {
+  //       let timeoutId;
   
-        const initTyping = () => {
-          init(currentRef, {
-            showCursor: true,
-            backDelay: 1000,
-            backSpeed: 60,
-            strings: ['Developer'],
-          });
-        };
+  //       const initTyping = () => {
+  //         init(currentRef, {
+  //           showCursor: true,
+  //           backDelay: 1000,
+  //           backSpeed: 60,
+  //           strings: ['Developer'],
+  //         });
+  //       };
   
-        if (!timeoutId) {
-          timeoutId = setTimeout(initTyping, 2300); 
-        } else {
-          clearTimeout(timeoutId);
-          initTyping();
-        }
-      }
-    };
-  }, [textRef]);
+  //       if (!timeoutId) {
+  //         timeoutId = setTimeout(initTyping, 2300); 
+  //       } else {
+  //         clearTimeout(timeoutId);
+  //         initTyping();
+  //       }
+  //     }
+  //   };
+  // }, [textRef]);
   
   useEffect(() => {
     const timeout = setTimeout(() => {
@@ -59,6 +61,8 @@ function Hero() {
 
     return () => clearTimeout(timeout);
   }, []);
+
+
 
   // Delayed rendering of the blobs
   useEffect(() => {
@@ -77,21 +81,39 @@ function Hero() {
     return () => clearTimeout(timeout);
   }, []);
 
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setShowWord(true);
+    }, 2300);
+
+    return () => clearTimeout(timeout);
+  }, []);
 
 
   return (
     <section className="bg-black text-white px-5 py-20 md:py-32">
       <div className="lettersc container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between relative">
         <div className="hero-info">
-          <h1 className="text-4xl lg:text-6xl">
-            <AnimatedLetters letterClass={letterClass} strArray={hiArray} idx={10} />{' '}
-            <br />
-            <AnimatedLetters letterClass={letterClass} strArray={imArray} idx={14} />{' '}
-            <span className={`${letterClass} _16 text-accent`}>S</span>
-            <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={17} /> <br />
-            <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={23} />{' '}
-            <span ref={textRef}></span>
-          </h1>
+        <h1 className="text-4xl lg:text-6xl">
+          <AnimatedLetters letterClass={letterClass} strArray={hiArray} idx={10} />{' '}
+          <br />
+          <AnimatedLetters letterClass={letterClass} strArray={imArray} idx={14} />{' '}
+          <span className={`${letterClass} _16 text-accent`}>S</span>
+          <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={17} /> <br />
+          <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={23} />{' '}
+          <div className={`word inline ${showWord ? 'word-visible' : ''}`} >         
+            {showWord && (
+                <Typewriter
+                  options={{
+                    strings: ['Developer'],
+                    autoStart: true,
+                    pauseFor: 700,
+                    loop: true,
+                  }}
+                />
+              )}
+          </div>
+        </h1>
 
         </div>
 
