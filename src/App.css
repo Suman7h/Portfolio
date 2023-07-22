@@ -241,6 +241,9 @@ h1 {
     .text-shpere{
         margin-right: auto;
     }
+    .tagcloud{
+      font-size: small;
+    }
     .cards {
         display: flex;
         flex-direction: column;
