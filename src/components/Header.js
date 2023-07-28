@@ -16,7 +16,7 @@ const Header = () => {
           <li><a href="/Portfolio/#experience">Experience</a></li>
           <li><a href="/Portfolio/#project">Projects</a></li>
           <li><a href="/Portfolio/#contact">Contact</a></li>
-          <li><a href="https://drive.google.com/file/d/1JpuUGKJ_sieqd3C3PtxHdbdCKTx3-noF/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a></li>
+          <li><a href="https://drive.google.com/file/d/1CBUgFudrZyXS8-o4rQf1pkJhtZl6vJp2/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a></li>
         </ul>
       </nav>
         {/*mob nav*/}
@@ -26,7 +26,7 @@ const Header = () => {
           <li><a href="/Portfolio/#experience">Experience</a></li>
           <li><a href="/Portfolio/#project">Projects</a></li>
           <li><a href="/Portfolio/#contact">Contact</a></li>
-          <li><a href="https://drive.google.com/file/d/1JpuUGKJ_sieqd3C3PtxHdbdCKTx3-noF/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a></li>
+          <li><a href="https://drive.google.com/file/d/1CBUgFudrZyXS8-o4rQf1pkJhtZl6vJp2/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a></li>
         </ul>
       </nav>
 

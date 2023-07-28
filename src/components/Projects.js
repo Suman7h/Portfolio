@@ -24,6 +24,31 @@ const Projects = () => {
                 </div>
             </div>
             <div className="cards container mx-auto grid grid-cols-3 gap-x-4 gap-y-14  pt-6">
+
+                    <div className='bg-white w-96 h-60 rounded-2xl relative transition-transform duration-1000 ease-in-out hover:translate-x-4 hover:-translate-y-4  '>  {/*onClick={() => handleProjectClick(1)}*/}
+                        <header>
+                            <div className="project-name text-black px-5 pt-8 text-lg font-bold">
+                                Buzz
+                            </div>
+                            <a href='https://github.com/Suman7h/Buzzz'  style={{fontSize:"30px"}}>
+                                <FontAwesomeIcon
+                                    icon={faGithub}
+                                    color="#4d4d4e"
+                                    className="anchor-icon"
+                                />
+                            </a>
+                            <div className="high-idea text-black px-5 "> Developed a "Full-Stack" Social media web Application which enables you to get new connections.</div>
+                        </header>
+                        <footer className=''>
+                            <div className='text-black text-xs opacity-60 flex px-5 pt-9'>
+                                <ul className='flex space-x-4'>
+                                    <li>React.js</li>
+                                    <li>MaterialUI</li>
+                                    <li>Node.js</li>
+                                </ul>
+                            </div>
+                        </footer>
+                    </div>
                     <div className='bg-white w-96 h-60 rounded-2xl relative transition-transform duration-1000 ease-in-out hover:translate-x-4 hover:-translate-y-4  '>  {/*onClick={() => handleProjectClick(1)}*/}
                         <header>
                             <div className="project-name text-black px-5 pt-8 text-lg font-bold">
@@ -69,31 +94,6 @@ const Projects = () => {
                                     <li>Python</li>
                                     <li>Machine learning</li>
                                     <li>Neural Networks</li>
-                                </ul>
-                            </div>
-                        </footer>
-                    </div>
-
-                    <div className='bg-white w-96 h-60 rounded-2xl relative transition-transform duration-1000 ease-in-out hover:translate-x-4 hover:-translate-y-4  '>  {/*onClick={() => handleProjectClick(1)}*/}
-                        <header>
-                            <div className="project-name text-black px-5 pt-8 text-lg font-bold">
-                                Cloning Websites
-                            </div>
-                            <button  style={{fontSize:"30px"}}>
-                                <FontAwesomeIcon
-                                    icon={faGithub}
-                                    color="#4d4d4e"
-                                    className="anchor-icon"
-                                />
-                            </button>
-                            <div className="high-idea text-black px-5 "> Redeveloping top websites like Amazon, Netflix, Reddit to understand the concepts of Full-stack development  </div>
-                        </header>
-                        <footer className=''>
-                            <div className='text-black text-xs opacity-60 flex px-5 pt-9'>
-                                <ul className='flex space-x-4'>
-                                    <li>React.js</li>
-                                    <li>Tailwind CSS</li>
-                                    <li>Node.js</li>
                                 </ul>
                             </div>
                         </footer>

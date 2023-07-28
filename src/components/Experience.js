@@ -44,7 +44,7 @@ const Experience = () => {
                                 <h5 className="vertical-timeline-element-subtitle text-black text-xs font-semibold">
                                     {element.location}
                                 </h5>
-                                <p id="description" className='text-black'>{element.description}</p>
+                                <div dangerouslySetInnerHTML={{ __html: element.description }} id="description" className='text-black'></div>
                             </VerticalTimelineElement>
                         )
                     })

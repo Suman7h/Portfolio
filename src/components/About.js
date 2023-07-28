@@ -66,16 +66,16 @@ function About() {
                     <h2 className='text-4xl font-bold mb-5 border-b-[4px] w-[180px] border-teal-500 pb-2'>
                         About Me
                     </h2>
-                    <p className='pb-5 pt-6'>
+                    <p align='justify' className='pb-5 pt-6'>
                       I'm a passionate <span className='text-teal-500'>Software Developer</span> building user friendly and interactive Websites. I am currently pursuing a Master's degree in Computer Science from the University of Central Florida.
                     </p>
-                    <p className='pb-5'>
+                    <p align='justify' className='pb-5'>
                       As a developer, my expertise spans across various technologies for <span className='text-teal-500'>coding</span> and <span className='text-teal-500'>problem-solving</span>. I have dedicated myself to mastering various programming languages and frameworks, constantly exploring new advancements in the field and staying up-to-date with the latest trends.
                     </p>
-                    <p className='pb-5'>
+                    <p align='justify' className='pb-5'>
                       In addition to my technical skills, I have excellent <span className='text-teal-500'>communication skills</span>. I perform best in fast-paced settings where I can use my analytical skills and creativity to solve difficult problems. My attention to detail and commitment to quality help me deliver high-quality code and ensure a <span className='text-teal-500'>smooth user experience</span>.
                     </p>
-                    <p>
+                    <p align='justify'>
                       I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to <a href='#contact' className='text-teal-500 cursor-pointer border-b'>contact me</a>.
                     </p>
     

@@ -13,7 +13,13 @@ let timelineElements = [
       title: "Security Analyst",
       location: "Sify Technologies, India",
       description:
-        `Involvement in improving the clients security compliance from 80% to 88% by proactive virus and threat detection. Establishing security for new clients by adhering to the "HLD" document and taking all necessary security precautions to protect the client enviromet from the attacks. examining the incidents and offering a quick fix to prevent any impact on the environment. Worked on "cloud" enviroment like "AWS", "Docker" and "VM Ware", where the servers are securely configured for the clients Using "Firewalls", "Antivirus". Worked as DBA inten where i performed backups, installations, upgrades, performance tweaking, and bug fixes.`,
+      `<ul>
+      <li>• Involvement in improving the client's security compliance from 80% to 88% by proactive virus and threat detection.</li>
+      <li>• Establishing security for new clients by adhering to the "HLD" document and taking all necessary security precautions to protect the client environment from the attacks.</li>
+      <li>• Examining the incidents and offering a quick fix to prevent any impact on the environment.</li>
+      <li>• Worked on "cloud" environment like "AWS", "Docker" and "VM Ware", where the servers are securely configured for the clients using "Firewalls", "Antivirus".</li>
+      <li>• Worked as DBA intern where I performed backups, installations, upgrades, performance tweaking, and bug fixes.</li>
+    </ul>`,
       date: "July 2020 - June 2022",
       icon: "work",
     },
