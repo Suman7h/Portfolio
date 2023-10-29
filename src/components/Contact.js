@@ -46,7 +46,7 @@ const Contact = () => {
                                     color="#37e4db"
                                     className="phone-icon pr-3"
                                 /> +1 (689) 250 9412 </h2>
-                <div className='pt-10 '><a href="https://drive.google.com/file/d/1CBUgFudrZyXS8-o4rQf1pkJhtZl6vJp2/view?usp=sharing" target="_blank" rel="noreferrer" className='font-bold border-2 border-teal-500 px-4 py-2'>Resume</a></div>
+                <div className='pt-10 '><a href="https://drive.google.com/file/d/1o-H6RetB-n80VK1Yy_FR9QW_A92fF31D/view?usp=sharing" target="_blank" rel="noreferrer" className='font-bold border-2 border-teal-500 px-4 py-2'>Resume</a></div>
                 
             </div>
 
