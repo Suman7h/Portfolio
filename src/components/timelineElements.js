@@ -1,15 +1,19 @@
 let timelineElements = [
   {
     id: 1,
-    title: "Titan America",
-    location: "Software Developer Intern",
+    title: "Software Developer",
+    location: "Titan America",
     description:
       `<ul>
-        <li>• Working on developing a large-scale web application using React and AWS </li>
+        <li>•	Spearheaded a custom Web application with React and Postgres SQL, boosting efficiency of <stong>25%</strong>.</li> 
+        <li>•	Engineered microservices utilizing Nodejs, Redux framework and REST API, reducing server response time by <strong>30%</strong>.</li>
+        <li>•	Leveraged Docker and Kubernetes for AWS deployment, enhancing scalability and reducing downtime by <strong>15%</strong>.</li>
+        <li>•	Implemented Agile methodologies, resulting in a <strong>20%</strong> increase in development cycle efficiency.</li>
+        <li>•	Deployed caching mechanisms, reducing database query response time by <strong>25%</strong>.Executed serverless architecture with AWS Lambda, reducing infrastructure costs by <strong>20%</strong></li>
         <li>• Implemented REST APIs to connect the application to the backend services. Optimized to educe the load times and increase the page speed.</li>
         <li>• Implemented continuous integration and deployment pipelines (CI/CD), resulting in a more streamlined development process and reducing the time taken for feature releases. </li>
         </ul>  `,
-    date: "Jaunary 2024 - Present",
+    date: "December 2023 - May2024",
     icon: "work",
   },
     {
@@ -30,18 +34,20 @@ let timelineElements = [
     },
     {
       id: 3,
-      title: "Security Analyst",
+      title: "Software Developer",
       location: "Sify Technologies, India",
       description:
       `<ul>
-      <li>• Enhanced client security compliance from <strong>"80%" to "88%"</strong> through proactive virus and threat detection.</li>
-      <li>• Established security protocols for new clients based on High-Level Design (HLD) documents and implemented necessary precautions to safeguard their environments from potential attacks.</li>
-      <li>• Examining the incidents and offering a quick fix to prevent any impact on the environment, resulting in a "<strong>7%</strong>" improvement in incident resolution and mitigation.</li>
-      <li>• Worked in "cloud" environments like "AWS", "Docker" and "VM Ware", where the servers are securely configured for the clients using "Firewalls", "Antivirus".</li>
+      <li>• Optimized website responsiveness,increasing mobile traffic by <strong>22%</strong>, and implementing Scrum for project management.</li>
+      <li>• Orchestrated advanced search functionality development, boosting user engagement by <strong>40%</strong> with Reactand Node.js.</li>
+      <li>•	Integrated 10+ RESTful APIs with Nodejs, enabling seamless data exchange and improving overall system functionality.</li>
+      <li>•	Performed code reviews of existing code base, leading to a <strong>30%</strong> reduction in load times and enhanced maintainability, quality assurance.</li>
+      <li>•	Conducted manual and automated testing, increasing code efficiency by <strong>10%</strong>.</li>
+      <li>•	Enhanced security measures through implementation of OAuth 2.0 authentication protocol.</li>
+      <li>•	Designed and implemented real-time chat functionality, enhancing user interaction and satisfaction.</li>
       <li>• Interned as a Database Administrator (DBA), responsible for executing tasks such as backups, installations, upgrades, performance optimization, and bug resolution. Achieved an "<strong>12%</strong>" performance enhancement.</li>
-      <li>• Obtained certification as a "<strong>Certified Ethical Hacker</strong>" from Ec-Council.</li>
     </ul>`,
-      date: "July 2020 - June 2022",
+      date: "January 2020 - July 2022",
       icon: "work",
     },
     {
