@@ -11,7 +11,11 @@ function About() {
           "C/C++",
           "JavaScript",
           "React",
-          "MYSQL",
+          "Angular",
+          "Spring Boot",
+          "Redux",
+          "Devops",
+          "SQL",
           "NodeJS",
           "VSCODE",
           "PANDAS",
@@ -19,8 +23,8 @@ function About() {
           "MATPOTLIB",
           "ML",
           "DSA",
-          "PHOTOSHOP",
           "GIT",
+          "Jira",
           "GITHUB",
         ];
       
